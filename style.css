@@ -1,0 +1,28 @@
+.container {
+    background-color: aquargb(60,60,51);
+    padding: 10px;
+    font-size: 1.5rem;
+    /* display:flex;
+     flex-wrap:wrap;*/
+}
+
+.box1 {
+    background-color: rgb(250, 215, 215);
+}
+
+.box2 {
+    background-color: aquamarine;
+}
+
+.box3 {
+    background-color: blue;
+}
+
+@media only screen and (max-width:700px){
+    .box1{
+        background-color: cornflowerblue;
+        font-size: 2rem;
+    }
+
+}
+    
